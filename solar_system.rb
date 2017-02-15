@@ -20,6 +20,7 @@ class Planet
     Acceleration due to gravity (m/ss): #{@acceleration_due_gravity}
     Moons: #{@moons.join(", ") rescue "NA"}"
   end
+  
 end
 
 #This class stores all planet inforamtion in an solar system array
