@@ -2,6 +2,7 @@
 class Planet
   attr_accessor :name, :mass_kg, :acceleration_due_gravity, :moons, :distance_from_sun_km, :diameter_km
 
+#added a super important comment!
   def initialize(planet)
     @name = planet[:name]
     @mass_kg = planet[:mass]
